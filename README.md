@@ -1,8 +1,8 @@
 [![Build Status](https://travis-ci.com/HuobiRDCenter/huobi_Java.svg?branch=master)](https://travis-ci.com/HuobiRDCenter/huobi_Java)
 
-# Huobi Java SDK v2
+# New Huo Java SDK v2
 
-This is Huobi Java SDK v2, you can import to your project and use this SDK to query all market data, trading and manage your account. The SDK supports RESTful API invoking, and subscribing the market, account and order update from the WebSocket connection.
+This is New Huo Java SDK v2, you can import to your project and use this SDK to query all market data, trading and manage your account. The SDK supports RESTful API invoking, and subscribing the market, account and order update from the WebSocket connection.
 
 If you already use SDK v1, it is strongly suggested migrate to v2 as we refactor the implementation to make it simpler and easy to maintain. We will stop the maintenance of v1 in the near future. Please refer to the instruction on how to migrate v1 to v2 in section [Migrate from v1](#Migrate-from-v1)
 
@@ -83,7 +83,7 @@ This is the folder and package structure of SDK source code and the description
 
 This SDK provides examples that under **src/test/java/com/huobi/example** folder, if you want to run the examples to access private data, you need below additional steps:
 
-1. Create an **API Key** first from Huobi official website
+1. Create an **API Key** first from New Huo official website
 2. Assign your API access key and secret key to "**Constant.java**" as below:
 
 ```java
@@ -97,7 +97,7 @@ Regarding the difference between public data and private data you can find detai
 
 ### Client
 
-In this SDK, the client is the class to access the Huobi API. In order to isolate the private data with public data, and isolated different kind of data, the client category is designated to match the API category.
+In this SDK, the client is the class to access the New Huo API. In order to isolate the private data with public data, and isolated different kind of data, the client category is designated to match the API category.
 
 All the client is listed in below table. Each client is very small and simple, it is only responsible to operate its related data, you can pick up multiple clients to create your own application based on your business.
 
